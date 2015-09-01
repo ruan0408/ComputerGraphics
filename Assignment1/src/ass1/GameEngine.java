@@ -1,3 +1,5 @@
+package ass1;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,7 +8,7 @@ import javax.media.opengl.GLAutoDrawable;
 import javax.media.opengl.GLEventListener;
 
 /**
- * The GameEngine is the GLEventListener for our game.
+ * The ass1.GameEngine is the GLEventListener for our game.
  * 
  * Every object in the scene tree is updated on each display call.
  * Then the scene tree is rendered.

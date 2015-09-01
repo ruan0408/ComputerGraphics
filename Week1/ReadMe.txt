@@ -6,7 +6,7 @@ ExampleWorld: Other shapes, some starting off screen -aspect ratio also debuggin
 Triangle4: same as triangle3 but with aspect ratio
 TriangleWindingOrder: front vs back line fill. 
 
-MouseClickDemo: Mouse click - coords
+MouseClickDemo: ass1.Mouse click - coords
 
 
 

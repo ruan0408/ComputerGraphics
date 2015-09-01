@@ -13,7 +13,7 @@ import javax.swing.JFrame;
 
 import com.jogamp.opengl.util.FPSAnimator;
 
-import TeapotView.View;
+//import TeapotView.View;
 
 /**
  * COMMENT: Comment Teapot 
@@ -110,18 +110,18 @@ public class Teapot implements MouseMotionListener, KeyListener {
         myPanels[0].addKeyListener(teapot);
         myPanels[0].setFocusable(true);
 
-        TeapotView view1 = new TeapotView(teapot, false, View.FREE);
+        TeapotView view1 = new TeapotView(teapot, false, TeapotView.View.FREE);
         myPanels[0].addGLEventListener(view1);
 
         myPanels[1].addMouseMotionListener(teapot);
         myPanels[1].setFocusable(false);
-        TeapotView view2 = new TeapotView(teapot, true, View.BACKWARDS);
+        TeapotView view2 = new TeapotView(teapot, true, TeapotView.View.BACKWARDS);
         myPanels[1].addGLEventListener(view2);
 
-        TeapotView view3 = new TeapotView(teapot, true, View.DOWN);
+        TeapotView view3 = new TeapotView(teapot, true, TeapotView.View.DOWN);
         myPanels[2].addGLEventListener(view3);
 
-        TeapotView view4 = new TeapotView(teapot, true, View.RIGHT);
+        TeapotView view4 = new TeapotView(teapot, true, TeapotView.View.RIGHT);
         myPanels[3].addGLEventListener(view4);
 
         FPSAnimator animator = new FPSAnimator(60);

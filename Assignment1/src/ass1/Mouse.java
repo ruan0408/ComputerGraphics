@@ -1,8 +1,7 @@
+package ass1;
+
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseWheelEvent;
-import java.util.HashMap;
-import java.util.Map;
 
 import javax.media.opengl.GL2;
 import javax.media.opengl.glu.GLU;
@@ -14,12 +13,12 @@ import javax.media.opengl.glu.GLU;
  *  1) the mouse position in world coordinates
  *  2) mouse press/release events that have happened in the past frame
  *
- * Mouse is a singleton class. There is only one instance, stored in Mouse.theMouse.
+ * ass1.Mouse is a singleton class. There is only one instance, stored in ass1.Mouse.theMouse.
  * 
  * You need to add this object as a MouseListener and MouseMotionListener to your GLJPanel to make it work:
  * 
- * panel.addMouseListener(Mouse.theMouse);
- * panel.addMouseMotionListener(Mouse.theMouse);
+ * panel.addMouseListener(ass1.Mouse.theMouse);
+ * panel.addMouseMotionListener(ass1.Mouse.theMouse);
  *
  * You should not need to modify this class.
  *

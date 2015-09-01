@@ -1,3 +1,5 @@
+package ass1;
+
 import javax.media.opengl.GL2;
 
 public class CircularGameObject extends GameObject {
@@ -7,7 +9,7 @@ public class CircularGameObject extends GameObject {
 	private double[] myFillColour;
     private double[] myLineColour;
     
-	//Create a CircularGameObject with centre 0,0 and a given radius
+	//Create a ass1.CircularGameObject with centre 0,0 and a given radius
 	public CircularGameObject(GameObject parent, double radius,double[] fillColour, double[] lineColour) {
         super(parent);
         
@@ -17,7 +19,7 @@ public class CircularGameObject extends GameObject {
         myLineColour = lineColour;
 	}
 	
-	//Create a CircularGameObject with centre 0,0 and radius 1
+	//Create a ass1.CircularGameObject with centre 0,0 and radius 1
 	public CircularGameObject(GameObject parent, double[] fillColour, double[] lineColour) {
 		this(parent, 1.0, fillColour, lineColour);
 	}

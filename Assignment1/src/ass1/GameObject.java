@@ -1,3 +1,5 @@
+package ass1;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -5,11 +7,11 @@ import javax.media.opengl.GL2;
 
 
 /**
- * A GameObject is an object that can move around in the game world.
+ * A ass1.GameObject is an object that can move around in the game world.
  * 
  * GameObjects form a scene tree. The root of the tree is the special ROOT object.
  * 
- * Each GameObject is offset from its parent by a rotation, a translation and a scale factor. 
+ * Each ass1.GameObject is offset from its parent by a rotation, a translation and a scale factor.
  *
  * TODO: The methods you need to complete are at the bottom of the class
  *
@@ -221,7 +223,7 @@ public class GameObject {
     /**
      * Update the object. This method is called once per frame. 
      * 
-     * This does nothing in the base GameObject class. Override this in subclasses.
+     * This does nothing in the base ass1.GameObject class. Override this in subclasses.
      * 
      * @param dt The amount of time since the last update (in seconds)
      */
@@ -232,7 +234,7 @@ public class GameObject {
     /**
      * Draw the object (but not any descendants)
      * 
-     * This does nothing in the base GameObject class. Override this in subclasses.
+     * This does nothing in the base ass1.GameObject class. Override this in subclasses.
      * 
      * @param gl
      */

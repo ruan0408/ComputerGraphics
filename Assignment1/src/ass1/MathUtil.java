@@ -1,3 +1,5 @@
+package ass1;
+
 /**
  * A collection of useful math methods 
  *

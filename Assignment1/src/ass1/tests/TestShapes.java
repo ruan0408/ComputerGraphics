@@ -1,8 +1,11 @@
+package ass1.tests;
+
 import javax.media.opengl.GLCapabilities;
 import javax.media.opengl.GLProfile;
 import javax.media.opengl.awt.GLJPanel;
 import javax.swing.JFrame;
 
+import ass1.*;
 import com.jogamp.opengl.util.FPSAnimator;
 
 /**
@@ -41,7 +44,7 @@ public class TestShapes {
 	}
    
     /**
-     * A simple example of how to use PolygonalGameObject, CircularGameObject and LineObject
+     * A simple example of how to use ass1.PolygonalGameObject, ass1.CircularGameObject and LineObject
      * 
      * and also how to put together a simple scene using the game engine.
      * 

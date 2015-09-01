@@ -1,9 +1,12 @@
+package ass1.tests;
+
+import ass1.MathUtil;
 import junit.framework.TestCase;
 
 import org.junit.Test;
 
 /**
- * COMMENT: Comment MathUtilTest 
+ * COMMENT: Comment ass1.tests.MathUtilTest
  *
  * @author malcolmr
  */

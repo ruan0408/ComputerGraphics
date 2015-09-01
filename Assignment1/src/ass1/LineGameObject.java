@@ -1,3 +1,5 @@
+package ass1;
+
 import javax.media.opengl.GL2;
 
 public class LineGameObject extends GameObject {
@@ -6,7 +8,7 @@ public class LineGameObject extends GameObject {
 	double[] myPoints;
 	double[] myLineColour;
 	
-	//Create a LineGameObject from (x1,y1) to (x2,y2)
+	//Create a ass1.LineGameObject from (x1,y1) to (x2,y2)
 	public LineGameObject(GameObject parent,  double x1, double y1, 
 												double x2, double y2,
 		                                        double[] lineColour) {
@@ -19,7 +21,7 @@ public class LineGameObject extends GameObject {
 		myLineColour = lineColour;
 	}
 		
-	//Create a LineGameObject from (0,0) to (1,0)
+	//Create a ass1.LineGameObject from (0,0) to (1,0)
 	public LineGameObject(GameObject parent, double[] lineColour) {
 		this(parent, 0, 0, 1, 0, lineColour);
 	}

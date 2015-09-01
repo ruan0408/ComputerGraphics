@@ -1,3 +1,5 @@
+package ass1;
+
 import javax.media.opengl.GL2;
 
 public class MyCoolGameObject extends GameObject{

@@ -1,9 +1,11 @@
+package ass1;
+
 import javax.media.opengl.GL2;
 
 /**
  * A game object that has a polygonal shape.
  * 
- * This class extend GameObject to draw polygonal shapes.
+ * This class extend ass1.GameObject to draw polygonal shapes.
  *
  * TODO: The methods you need to complete are at the bottom of the class
  *

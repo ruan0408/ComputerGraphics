@@ -1,12 +1,18 @@
+package ass1.tests;
+
 import javax.media.opengl.GLCapabilities;
 import javax.media.opengl.GLProfile;
 import javax.media.opengl.awt.GLJPanel;
 import javax.swing.JFrame;
 
+import ass1.Camera;
+import ass1.GameEngine;
+import ass1.GameObject;
+import ass1.MyCoolGameObject;
 import com.jogamp.opengl.util.FPSAnimator;
 
 /**
- * A simple class to view MyCoolGameObject
+ * A simple class to view ass1.MyCoolGameObject
  *
  * @author angf
  */
@@ -27,7 +33,7 @@ public class TestMyCoolGameObject {
 	}
    
     /**
-     * A simple test for MyCoolGameObject
+     * A simple test for ass1.MyCoolGameObject
      * 
      * @param args
      */
