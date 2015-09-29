@@ -1,0 +1,26 @@
+Check the bezier spline example for the assignment.
+Booking timeslots - just in the tutorial.
+VBOs
+
+1. TextureExample1.java - 
+try to do 2 instead of 1 to show the different effects and modulate.
+try to do texture coordinates of the triangle.
+
+3. Do our own cylinder
+
+2. TexturesLightingExample.java - 
+show lighting modulate and secular searate
+show bad coords in the shere and seems etc.
+
+4. Do our own sphere
+
+MIP MAPPING
+mag
+Minification compare sky with nearest vs linear.
+aniso.
+
+TextureExample1 Shader - with simple shaders
+TextureExamle1 with VBO and shader no using attrib
+
+texCylinderFramBuffer
+

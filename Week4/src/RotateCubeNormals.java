@@ -151,7 +151,7 @@ public class RotateCubeNormals implements GLEventListener, KeyListener {
            gl.glVertex3d(0, 1, 0);
     	   
            //right
-           gl.glColor3f(0, 0, 1); 
+           gl.glColor3f(0, 0, 1);
            gl.glNormal3d(1,0,0);
            gl.glVertex3d(1, 0, -1);
            gl.glVertex3d(1, 1, -1);
